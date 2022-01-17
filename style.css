@@ -32,12 +32,25 @@ main {
     width: 260px;
 }
 
+.top-container {
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    border-radius: 8px;
+}
+
 #display {
     display: flex;
     background-color: lightgray;
     color: darkgray;
-    width: 200px;
-    height: 20px;
+    width: 180px;
+    height: 36px;
+    margin: 25px 20px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
 }
 
 #branding {
@@ -63,8 +76,16 @@ main {
 #solar {
     display: flex;
     background-color: darkgray;
-    width: 80px;
+    width: 68px;
+    height: 22px;
+}
+
+.box {
+    display: flex;
+    background-color: darkgray;
+    width: 15px;
     height: 20px;
+    border: 1px black solid;
 }
 
 .row {
@@ -97,7 +118,7 @@ main {
     width: 40px;
     height: 30px;
     border: 1px black solid;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .number {
@@ -109,7 +130,7 @@ main {
     width: 40px;
     height: 30px;
     border: 1px black solid;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 #equal {
