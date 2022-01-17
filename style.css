@@ -24,6 +24,14 @@ main {
     height: 88vh;
 }
 
+.calculator {
+    background-color: darkblue;
+    border: 2px white solid;
+    border-radius: 8px;
+    height: 440px;
+    width: 260px;
+}
+
 footer {
     display: flex;
     justify-content: center;
