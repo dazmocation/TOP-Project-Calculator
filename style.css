@@ -32,6 +32,80 @@ main {
     width: 260px;
 }
 
+#display {
+    display: flex;
+    background-color: lightgray;
+    color: darkgray;
+    width: 200px;
+    height: 20px;
+}
+
+#branding {
+    display: flex;
+}
+
+#branding-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#branding-right {
+    display: flex;
+}
+
+#solar {
+    display: flex;
+    background-color: darkgray;
+    width: 80px;
+    height: 20px;
+}
+
+.row {
+    display: flex;
+    
+}
+
+#operations {
+    display: flex;
+}
+
+#operations-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#operations-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.operator {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    background-color: red;
+    width: 40px;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 2px;
+}
+
+.number {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 2px;
+}
+
+#equal {
+    height: 70px;
+}
+
 footer {
     display: flex;
     justify-content: center;
