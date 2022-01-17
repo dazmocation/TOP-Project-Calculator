@@ -42,15 +42,22 @@ main {
 
 #branding {
     display: flex;
+    background-color: darkblue;
+}
+
+#brand-name {
+    background-color: darkblue;
 }
 
 #branding-left {
     display: flex;
     flex-direction: column;
+    background-color: darkblue;
 }
 
 #branding-right {
     display: flex;
+    background-color: darkblue;
 }
 
 #solar {
@@ -62,21 +69,24 @@ main {
 
 .row {
     display: flex;
-    
+    background-color: darkblue;
 }
 
 #operations {
     display: flex;
+    background-color: darkblue;
 }
 
 #operations-left {
     display: flex;
     flex-direction: column;
+    background-color: darkblue;
 }
 
 #operations-right {
     display: flex;
     flex-direction: column;
+    background-color: darkblue;
 }
 
 .operator {
